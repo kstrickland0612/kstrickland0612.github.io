@@ -1,26 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
+import { TechStack } from "../components/tech-stack"
+import { About } from "../components/about"
+import { WorkingWithMe } from "../components/working-with-me"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
-
-const data = useStaticQuery(graphql`
-  query {
-    Images: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`)
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Hi" />
+    <About />
+    <p>I'm always up for learning new things. At the moment I'm enjoying working with these tools:</p>
+    <TechStack />
+    <WorkingWithMe />
   </Layout>
 )
 
