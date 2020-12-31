@@ -68,7 +68,7 @@ export const other = [
       <>
         <p>
           Spent a year working on disability empowerment and inclusion. Wore all
-          hats. Honed my BS detector for performative diversity and inclusion
+          hats. Learned to recognize and avoid performative diversity and inclusion
           practices. Learned from amazing people who have been doing this work
           for decades.
           <b>
