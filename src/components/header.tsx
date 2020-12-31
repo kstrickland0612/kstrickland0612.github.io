@@ -1,0 +1,47 @@
+import { Link } from "gatsby";
+import React, { PropsWithChildren } from "react";
+import { colors } from "../modules/colors";
+import { StyledLink } from "./link";
+
+const headerStyle = {
+  display: "flex",
+  justifyContent: "space-between",
+  alignItems: "center",
+  width: "100%",
+};
+
+const Navigation = () => (
+  <nav
+    style={{
+      display: "flex",
+      paddingRight: 20,
+    }}
+  >
+    <StyledLink to="/career/" style={{ padding: 10 }}>
+      Career
+    </StyledLink>
+    <StyledLink to="/contact/" style={{ padding: 10 }}>
+      Contact
+    </StyledLink>
+  </nav>
+);
+
+const Header = () => (
+  <header style={headerStyle}>
+    <Link
+      to="/"
+      style={{
+        fontFamily: "Ubuntu, sans-serif",
+        fontSize: 66,
+        paddingLeft: 10,
+        textDecoration: "none",
+        color: colors.CHARCOAL,
+      }}
+    >
+      k
+    </Link>
+    <Navigation />
+  </header>
+);
+
+export default Header;

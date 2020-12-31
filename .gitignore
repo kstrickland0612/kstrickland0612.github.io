@@ -1,0 +1,12 @@
+/node_modules/
+
+# Build directories.
+.cache
+/dist/
+/public/
+
+# Generated files.
+npm-debug.log
+yarn-error.log 
+
+*.DS_Store

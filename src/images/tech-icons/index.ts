@@ -1,0 +1,14 @@
+export * as AWSIcon from "./amazonaws.svg";
+export * as GatsbyIcon from "./gatsby.svg";
+export * as GithubIcon from "./github.svg";
+export * as EmailIcon from "./gmail.svg";
+export * as JavaScriptIcon from "./javascript.svg";
+export * as JestIcon from "./jest.svg";
+export * as LighthouseIcon from "./lighthouse.svg";
+export * as LinkedInIcon from "./linkedin.svg";
+export * as NetlifyIcon from "./netlify.svg";
+export * as NodeIcon from "./node.svg";
+export * as ReactIcon from "./react.svg";
+export * as ReduxIcon from "./redux.svg";
+export * as SnowflakeIcon from "./snowflake.svg";
+export * as TypeScriptIcon from "./typescript.svg";
