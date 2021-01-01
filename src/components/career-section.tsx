@@ -75,8 +75,8 @@ const FocusArea = ({
 
 export const CareerSection = () => (
   <div>
-    <FocusArea title="- Software Engineering -" focus={engineering} />
-    <FocusArea title="- Before I learned to code -" focus={other} />
-    <FocusArea title="- Academics -" focus={education} />
+    <FocusArea title="Software Engineering" focus={engineering} />
+    <FocusArea title="Before I learned to code" focus={other} />
+    <FocusArea title="Academics" focus={education} />
   </div>
 );
