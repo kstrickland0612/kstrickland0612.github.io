@@ -34,7 +34,7 @@ const NotFoundPage = () => (
           }}
         >
           4
-          <img src={Cat} height="90px" />4
+          <img src={Cat} height="90px" alt=""/>4
         </h1>
       </div>
       <p>That page doesn&#39;t exist.</p>
