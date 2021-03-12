@@ -16,23 +16,26 @@ const NotFoundPage = () => (
         paddingBottom: 40,
       }}
     >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "flex-end",
-          justifyContent: "center",
-        }}
-      >
-        <h1
+      <section aria-label="404 not found">
+        <div
+          aria-hidden
           style={{
-            fontSize: 100,
-            marginBottom: 0,
+            display: "flex",
+            alignItems: "flex-end",
+            justifyContent: "center",
           }}
         >
-          4
-          <img src={Cat} height="90px" />4
-        </h1>
-      </div>
+          <h1
+            style={{
+              fontSize: 100,
+              marginBottom: 0,
+            }}
+          >
+            4
+            <img src={Cat} height="90px" />4
+          </h1>
+        </div>
+      </section>
       <p>That page doesn&#39;t exist.</p>
       <StyledButtonLink to="/">BACK HOME</StyledButtonLink>
     </div>
