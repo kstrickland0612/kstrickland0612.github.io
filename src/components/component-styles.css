@@ -5,7 +5,7 @@ a {
   cursor: "pointer";
 }
 
-a:visited{
+a:visited {
   color: #373f51;
 }
 
@@ -15,6 +15,20 @@ a.button:hover {
 }
 
 a.link:hover {
-  color: #E77728;
+  color: #e77728;
 }
 
+a.skip-link {
+  padding: 10px;
+  background: white;
+  top: 0;
+  left: 0;
+  left: calc(50% - 63px);
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+a.skip-link:focus {
+  transform: translateY(0%);
+}
