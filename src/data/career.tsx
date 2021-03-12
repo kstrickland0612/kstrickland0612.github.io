@@ -10,7 +10,7 @@ export const engineering = [
     org: "Own Up",
     logo: OwnUpLogo,
     mission:
-      "Helping every American get a fair deal on their mortgage. Own Up uses technology and transparency to simplify the home financing process. Evaluate lenders, compare rates, and get the best terms.",
+      "Helping everyone in the US get a fair deal on their mortgage. Using technology to simplify the home financing process.",
     title: "Software Engineer",
     timeline: "July 2019 - present",
     tech:
@@ -68,9 +68,9 @@ export const other = [
       <>
         <p>
           Spent a year working on disability empowerment and inclusion. Wore all
-          hats. Learned to recognize and avoid performative diversity and inclusion
-          practices. Learned from amazing people who have been doing this work
-          for decades.
+          hats. Learned to recognize and avoid performative diversity and
+          inclusion practices. Learned from amazing people who have been doing
+          this work for decades.
           <b>
             {" "}
             Developed a huge appreciation for accessibility as innovation.{" "}
