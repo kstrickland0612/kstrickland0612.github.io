@@ -1,5 +1,5 @@
 import { Link } from "gatsby";
-import React, { PropsWithChildren } from "react";
+import React from "react";
 import { colors } from "../modules/colors";
 import { StyledLink } from "./link";
 
@@ -28,7 +28,9 @@ const Navigation = () => (
 
 const Header = () => (
   <header style={headerStyle}>
+    <a className="skip-link" href="#main">Skip to content</a>
     <Link
+      aria-label="home"
       to="/"
       style={{
         fontFamily: "Ubuntu, sans-serif",

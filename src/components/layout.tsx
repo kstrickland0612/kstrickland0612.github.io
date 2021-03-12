@@ -30,7 +30,7 @@ const Layout = ({ children }: PropsWithChildren<{}>) => {
           padding: "0 20px",
         }}
       >
-        <main>{children}</main>
+        <main id="main">{children}</main>
       </div>
       <Footer />
     </>

@@ -18,7 +18,7 @@ const ImageSection = ({
       alignItems: "center",
     }}
   >
-    <img src={logo} style={{ width: 100 }} />
+    <img src={logo} style={{ width: 100 }} alt={`${org} logo`} />
     <h3>{org}</h3>
     {mission && <p>{mission}</p>}
   </div>
