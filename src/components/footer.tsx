@@ -65,7 +65,7 @@ const Footer = () => {
           <StyledButtonLink to="/contact/">CONTACT ME</StyledButtonLink>
         ) : null}
         <div style={{ paddingTop: 25 }}>
-          This site was created by K Strickland 🌈🧑🏻‍💻
+          This site was created by Kai Strickland 🌈🧑🏻‍💻
         </div>
       </div>
     </footer>
