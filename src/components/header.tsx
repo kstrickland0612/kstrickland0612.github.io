@@ -40,7 +40,7 @@ const Header = () => (
         color: colors.CHARCOAL,
       }}
     >
-      k
+      kai
     </Link>
     <Navigation />
   </header>

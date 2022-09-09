@@ -11,10 +11,10 @@ export const engineering = [
     logo: OwnUpLogo,
     mission:
       "Helping everyone in the US get a fair deal on their mortgage. Using technology to simplify the home financing process.",
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     timeline: "July 2019 - present",
     tech:
-      "JavaScript, TypeScript, Node, React, Redux, AWS (CloudFormation, CodeBuild, Lambdas, DynamoDB, S3, X-Ray, CloudWatch, Step Functions, ...) Jest, Storybook, Github/Git",
+      "JavaScript, TypeScript, Node, React, Redux, AWS (CloudFormation, CodeBuild, Lambdas, DynamoDB, S3, X-Ray, CloudWatch, Step Functions, ...), Snowflake, Gatsby, Jest, Storybook, Github/Git",
     description: (
       <>
         <ul>
