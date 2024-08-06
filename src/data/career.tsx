@@ -10,27 +10,45 @@ export const engineering = [
     org: "Own Up",
     logo: OwnUpLogo,
     mission:
-      "Helping everyone in the US get a fair deal on their mortgage. Using technology to simplify the home financing process.",
+      "Mission: Helping everyone in the US get a fair deal on their mortgage. Using technology to simplify the home financing process.",
     title: "Senior Software Engineer",
     timeline: "July 2019 - present",
     tech:
-      "JavaScript, TypeScript, Node, React, Redux, AWS (CloudFormation, CodeBuild, Lambdas, DynamoDB, S3, X-Ray, CloudWatch, Step Functions, ...), Snowflake, Gatsby, Jest, Storybook, Github/Git",
+      "JavaScript, TypeScript, Node, React, Redux, Netlify, AWS (CloudFormation, CodeBuild, Lambdas, DynamoDB, S3, X-Ray, CloudWatch, Step Functions, ...), Snowflake, Looker, Hubspot, Split, Gatsby, Jest, PLaywright, Storybook, Github/Git, Github Copilot",
     description: (
       <>
         <ul>
           <li>Agile Scrum environment</li>
-          <li>Domain driven design</li>
+          <li>Domain driven design + microservices architecture</li>
           <li>Peer-reviewed pull requests</li>
           <li>
             Continuous integration / continuous deployment with AWS + Netlify
           </li>
         </ul>
         <p>
-          Build front and back end features. Tackle tech debt and bug requests
-          with an emphasis on leaving code cleaner than it was found. Implement
-          new tooling and best practices to improve team productivity. Deliver
-          future-proof code with thoughtful test coverage. Create performant and
-          accessible user experiences.
+          Started as Associate Software Engineer.
+          <br />6 months later, promoted to Software Engineer.
+          <br />2 years later, promoted to Senior Software Engineer.
+        </p>
+        <p>
+          Tech lead full stack projects.
+          <br />
+          Work closely with Product Managers to scope, prioritize, and release
+          work.
+          <br />
+          Communicate effectively with stakeholders across the technical
+          spectrum.<br />
+          Tackle tech debt and bug requests with an emphasis on leaving code
+          cleaner than it was found.
+          <br />
+          Plan and implement new infra work, tooling and best practices to
+          improve developer experience.
+          <br />
+          Deliver future-proof code with thoughtful test coverage.
+          <br />
+          Create performant and accessible user experiences.
+          <br />
+          Run data-driven experiments to rapidly validate product decisions.
         </p>
       </>
     ),
@@ -60,7 +78,7 @@ export const other = [
     org: "Empowerment Through Integration",
     logo: ETILogo,
     mission:
-      "Disrupting the narrative surrounding disability through empowering youth with disabilities and accelerating authentic inclusion.",
+      "Mission: Disrupting the narrative surrounding disability through empowering youth with disabilities and accelerating authentic inclusion.",
     title: "Program Director and Interim COO",
     timeline: "March 2018 - March 2019",
     tech: "",
@@ -83,7 +101,7 @@ export const other = [
     org: "Addgene",
     logo: AddgeneLogo,
     mission:
-      "Accelerating research and discovery by improving access to useful research materials and information.",
+      "Mission: Accelerating research and discovery by improving access to useful research materials and information.",
     title: "Customer Support & Operations Manager",
     timeline: "October 2014 - June 2018",
     tech: "",
